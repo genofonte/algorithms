@@ -1,0 +1,14 @@
+def search(arr, search):
+    n = len(arr)
+    for i in range(0, n):
+        if (arr[i] == search):
+            return i
+        return -1
+
+arr = [2, 3, 4, 10, 40]
+elSearch = 4
+result = search(arr, elSearch)
+if(result == -1):
+    print(f'Element {elSearch} is not in array')
+else:
+    print("Element is not present at index", result)
