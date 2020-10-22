@@ -4,7 +4,7 @@ import unittest
 
 class TestSearch(unittest.TestCase):
 
-    def bin_search(self):
+    def test_bin_search(self):
         self.assertEqual(search([1, 2], 1), 1)
         self.assertEqual(search([1, 2, 3], 1), 1)
 
